@@ -4,17 +4,20 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-
+import { MainDirective } from './main.directive';
+import {positionXArray,positionYArray} from './global';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MainDirective
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [
+    positionXArray],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

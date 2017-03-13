@@ -1,3 +1,6 @@
-<h1>
-  {{title}}
+<div class="container" [style.width]='contWidth()' [style.height]='contHeight()' (mousemove)="coordinates($event)">
+<h1 *ngFor='let tag of tags' [style.color]='tag.color' name>
+  {{tag.name}}
 </h1>
+ <p>{{x}} & {{y}}</p>
+</div>
