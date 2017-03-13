@@ -1,6 +1,5 @@
 <div class="container" [style.width]='contWidth()' [style.height]='contHeight()' (mousemove)="coordinates($event)">
-<h1 *ngFor='let tag of tags' [style.color]='tag.color' name>
+<a *ngFor='let tag of tags' href='{{tag.link}}'  name (mouseenter)="hoverEle()" (mouseleave)="leaveEle()"   [ngClass]="{'hovered': hoverd}" [style.color]='tag.color' [attr.data-weight]="tag.weight">
   {{tag.name}}
-</h1>
- <p>{{x}} & {{y}}</p>
+</a>
 </div>

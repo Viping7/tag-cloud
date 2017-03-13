@@ -16,77 +16,275 @@ y;
 left_pos;
 top_pos;    
 tags=[{
-    name:"FC Barcelona",
-    link:"http://www.fcb.com",
-    color:"#036295"
+    name:"Lorem",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'10'
 },{
-    name:"Manchester United",
-    link:"http://www.manu.com",
-    color:"#d6042c"
+    name:"Ipsum",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'2'
+},
+{
+    name:"Dolor",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'4'
+},
+{
+    name:"siet",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'6'
 },{
-    name:"FC Barcelona",
-    link:"http://www.fcb.com",
-    color:"#036295"
+    name:"Lorem",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'4'
 },{
-    name:"Manchester United",
-    link:"http://www.manu.com",
-    color:"#d6042c"
+    name:"Ipsum",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'11'
+},
+{
+    name:"Dolor",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'8'
+},
+{
+    name:"siet",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'7'
 },{
-    name:"FC Barcelona",
-    link:"http://www.fcb.com",
-    color:"#036295"
+    name:"Lorem",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'5'
 },{
-    name:"Manchester United",
-    link:"http://www.manu.com",
-    color:"#d6042c"
+    name:"Ipsum",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'1'
+},
+{
+    name:"Dolor",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'5'
+},
+{
+    name:"siet",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'3'
+},
+{
+    name:"Dolor",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'10'
+},
+{
+    name:"siet",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'6'
 },{
-    name:"FC Barcelona",
-    link:"http://www.fcb.com",
-    color:"#036295"
+    name:"Lorem",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'8'
 },{
-    name:"Manchester United",
-    link:"http://www.manu.com",
-    color:"#d6042c"
+    name:"Ipsum",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'4'
+},
+{
+    name:"Dolor",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'3'
+},
+{
+    name:"siet",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'3'
+},
+
+{
+    name:"Dolor",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'8'
+},
+{
+    name:"siet",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'5'
 },{
-    name:"FC Barcelona",
-    link:"http://www.fcb.com",
-    color:"#036295"
+    name:"Lorem",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'3'
 },{
-    name:"Manchester United",
-    link:"http://www.manu.com",
-    color:"#d6042c"
+    name:"Ipsum",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'8'
+},
+{
+    name:"Dolor",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'7'
+},
+{
+    name:"siet",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'3'
 },{
-    name:"FC Barcelona",
-    link:"http://www.fcb.com",
-    color:"#036295"
+    name:"Lorem",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'10'
 },{
-    name:"Manchester United",
-    link:"http://www.manu.com",
-    color:"#d6042c"
+    name:"Ipsum",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'2'
+},
+{
+    name:"Dolor",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'4'
+},
+{
+    name:"siet",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'6'
 },{
-    name:"FC Barcelona",
-    link:"http://www.fcb.com",
-    color:"#036295"
+    name:"Lorem",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'4'
 },{
-    name:"Manchester United",
-    link:"http://www.manu.com",
-    color:"#d6042c"
+    name:"Ipsum",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'11'
+},
+{
+    name:"Dolor",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'8'
+},
+{
+    name:"siet",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'7'
 },{
-    name:"FC Barcelona",
-    link:"http://www.fcb.com",
-    color:"#036295"
+    name:"Lorem",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'5'
 },{
-    name:"Manchester United",
-    link:"http://www.manu.com",
-    color:"#d6042c"
+    name:"Ipsum",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'1'
+},
+{
+    name:"Dolor",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'5'
+},
+{
+    name:"siet",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'3'
+},
+{
+    name:"Dolor",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'10'
+},
+{
+    name:"siet",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'6'
 },{
-    name:"FC Barcelona",
-    link:"http://www.fcb.com",
-    color:"#036295"
+    name:"Lorem",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'8'
 },{
-    name:"Manchester United",
-    link:"http://www.manu.com",
-    color:"#d6042c"
+    name:"Ipsum",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'4'
+},
+{
+    name:"Dolor",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'3'
+},
+{
+    name:"siet",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'3'
+},
+
+{
+    name:"Dolor",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'8'
+},
+{
+    name:"siet",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'5'
+},{
+    name:"Lorem",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'3'
+},{
+    name:"Ipsum",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'8'
+},
+{
+    name:"Dolor",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'7'
+},
+{
+    name:"siet",
+    link:"http://www.link.com",
+    color:"#13a7d3",
+    weight:'3'
 }];
 
 contWidth(){
@@ -101,5 +299,11 @@ contHeight(){
         this.x = event.clientX;
         this.y = event.clientY;
     }
-    
+    hoverd=false;    
+hoverEle(){
+    this.hoverd=true;
+}  
+leaveEle(){
+    this.hoverd=false;
+}     
 }

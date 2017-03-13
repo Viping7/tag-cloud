@@ -1,10 +1,22 @@
-h1{
-    position: absolute;
+a{
+    opacity: 1 ;
+    display: inline-block;
     padding: 0px;
-    font-family: calibri;
+    margin: 0px;
+    font-weight: 400;
+    margin:0px 5px; 
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 40px;
+   transition:all 0.5s;
+}
+.hovered{
+    opacity: 0.2 ;   
 }
 .container{
     position: relative;
-    border: 1px solid green;
+    border: 1px solid #eee;
+    background: #fafafa;
     padding: 30px;
+    margin: 0 auto;
 }
