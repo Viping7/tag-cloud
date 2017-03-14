@@ -37,17 +37,20 @@ if(weight>=2){
     if(weight>=4){
      this.el.nativeElement.style.fontSize="24px";
         
+          this.el.nativeElement.style.fontWeight="500";
    this.el.nativeElement.style.color="#feceab";    
 }   
     if(weight>=6){
      this.el.nativeElement.style.fontSize="26px";
     
+          this.el.nativeElement.style.fontWeight="600";
    this.el.nativeElement.style.color="#21ced4";    
 }
       if(weight>=10){
          this.el.nativeElement.style.fontSize="34px";
+          this.el.nativeElement.style.fontWeight="700";
          this.el.nativeElement.style.verticalAlign="top";     
-         this.el.nativeElement.style.color="#9de0ad";
+         this.el.nativeElement.style.color="#cc527a";
   
 }
 }
