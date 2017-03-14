@@ -1,4 +1,4 @@
-<div class="container" [style.width]='contWidth()' (mousemove)="coordinates($event)">
+<div class="container">
 <a *ngFor='let tag of tags' href='{{tag.link}}'  name (mouseenter)="hoverEle()" (mouseleave)="leaveEle()"   [ngClass]="{'hovered': hoverd}" [attr.data-weight]="tag.weight">
   {{tag.name}}
 </a>

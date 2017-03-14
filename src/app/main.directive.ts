@@ -1,5 +1,5 @@
 import {Directive,ElementRef,Input, HostListener,AfterViewInit} from '@angular/core';
-import{positionXArray,positionYArray} from './global';
+
 @Directive({
         selector:'[name]' ,
   /*  host: {
@@ -32,7 +32,7 @@ ngAfterViewInit() {
    var weight=this.el.nativeElement.getAttribute('data-weight');
 if(weight>=2){
      this.el.nativeElement.style.fontSize="16px";
-     this.el.nativeElement.style.verticalAlign="top";
+     this.el.nativeElement.style.verticalAlign="bottom";
 }
     if(weight>=4){
      this.el.nativeElement.style.fontSize="24px";
@@ -46,7 +46,7 @@ if(weight>=2){
 }
       if(weight>=10){
          this.el.nativeElement.style.fontSize="34px";
-         this.el.nativeElement.style.verticalAlign="bottom";     
+         this.el.nativeElement.style.verticalAlign="top";     
          this.el.nativeElement.style.color="#9de0ad";
   
 }

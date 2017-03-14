@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { MainDirective } from './main.directive';
-import {positionXArray,positionYArray} from './global';
+import {Tags} from './global';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,8 +16,7 @@ import {positionXArray,positionYArray} from './global';
     FormsModule,
     HttpModule
   ],
-  providers: [
-    positionXArray],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
