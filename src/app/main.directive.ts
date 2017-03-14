@@ -21,16 +21,23 @@ hoverd:boolean;
     this.el.nativeElement.style.opacity="";
 this.el.nativeElement.style.transform='scale(1)';
 } 
+offset_gen(){
+    return Math.random()*10+'px';
+}    
 ngAfterViewInit() {
+    this.el.nativeElement.style.marginTop=this.offset_gen();
+    this.el.nativeElement.style.marginBottom=this.offset_gen();
+    this.el.nativeElement.style.marginLeft=this.offset_gen();
+    this.el.nativeElement.style.marginRight=this.offset_gen();
    var weight=this.el.nativeElement.getAttribute('data-weight');
 if(weight>=2){
      this.el.nativeElement.style.fontSize="16px";
-    // this.el.nativeElement.style.fontWeight="400";
+     this.el.nativeElement.style.verticalAlign="top";
 }
     if(weight>=4){
      this.el.nativeElement.style.fontSize="24px";
         
-    // this.el.nativeElement.style.fontWeight="600";
+   this.el.nativeElement.style.color="#feceab";    
 }   
     if(weight>=6){
      this.el.nativeElement.style.fontSize="26px";
@@ -38,10 +45,10 @@ if(weight>=2){
    this.el.nativeElement.style.color="#21ced4";    
 }
       if(weight>=10){
-     this.el.nativeElement.style.fontSize="30px";
-          
-   this.el.nativeElement.style.color="#5fd0b5";
-   //  this.el.nativeElement.style.fontWeight="900";
+         this.el.nativeElement.style.fontSize="34px";
+         this.el.nativeElement.style.verticalAlign="bottom";     
+         this.el.nativeElement.style.color="#9de0ad";
+  
 }
 }
    
